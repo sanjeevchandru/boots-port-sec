@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.title-row p{
+    font-size: 14px;
+}
+.underline{
+    height: 4px;
+}
+.port-card-1{
+    position: relative;
+    overflow:hidden;
+    padding: 5px 0 20px 0;
+}
+.port-cont-row{
+    position: absolute;
+    bottom:0%;
+    left: 3%;
+    opacity: 0;
+    transform: translateY(20%);
+}
+.port-card-1:hover .port-cont-row{
+    opacity: 1;
+    transform: translateY(-20%);
+    transition: all 0.8s ease;
+}
+.port-card-1:hover img{
+    transform: translateY(-10%);
+    transition: all 0.5s ease;
+}
+.fil-col a{
+    padding: 5px 10px;
+    background-color: #dfdede;
+}
+.fil-col a:hover{
+    background-color: #f8c008;
+    transition: all 0.5s ease;
+}
